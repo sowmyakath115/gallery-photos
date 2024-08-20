@@ -1,0 +1,39 @@
+.app-conatiner {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-top: 35px;
+  margin-bottom: 34px;
+  margin-left: 40px;
+  margin-right: 35px;
+  max-width: 1140px;
+}
+
+.selected-image {
+  border-radius: 18px;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 30px;
+  font-family: 'roboto';
+}
+
+.name {
+  color: #64748b;
+  font-family: 'roboto';
+  font-size: 20px;
+}
+
+.thumbnail-list{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
